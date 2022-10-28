@@ -1,0 +1,2 @@
+# better
+🚀 Arch Linux distro
