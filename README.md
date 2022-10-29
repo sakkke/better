@@ -5,3 +5,7 @@ Arch Linux distro
 - Btrfs
 - [fzf](https://github.com/junegunn/fzf)
 - [V](https://github.com/vlang/v)
+
+## License
+
+MIT
