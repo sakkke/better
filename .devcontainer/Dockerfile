@@ -8,3 +8,13 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
+# Install V
+RUN mkdir /opt/v \
+    && (cd /opt/v \
+        && git init \
+        && git remote add origin https://github.com/vlang/v.git \
+        && git fetch --depth=1 origin 54b623743d12306aac8d0091daf3149299d5fe9e \
+        && git reset --hard FETCH_HEAD \
+        && make \
+        && ./v symlink)
+
