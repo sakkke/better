@@ -1,4 +1,4 @@
-# better
+# Better
 Arch Linux distro
 
 ## Technologies
