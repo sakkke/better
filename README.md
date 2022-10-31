@@ -1,6 +1,12 @@
 # Better
 Arch Linux distro
 
+## Concepts
+
+- **Simple**: simple is better than complex. 3 step installation! (WIP)
+- **Maintainable**: ideal for long time use. Partitions can be easily initialize/restored using GPT partition labels. (WIP)
+- **Customizable**: support for external configurations such as dotfiles. From Better, we can create better distros! (WIP)
+
 ## Technologies
 - Btrfs
 - [fzf](https://github.com/junegunn/fzf)
