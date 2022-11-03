@@ -24,43 +24,9 @@ $ tree -dL 1 --noreport .
 
 ## Installation
 
-### Installation from Betteriso
-
-**Step 1**:
-
 ```shell
-vbase
+better
 ```
-
-**Step 2**:
-
-```shell
-arch-chroot vmiddle --rm repo.git
-```
-
-- `--rm` is an option to remove itself (`vmiddle`).
-
-**Step 3**:
-
-```shell
-arch-chroot vuser --rm repo.git
-```
-
-- `--rm` is an option to remove itself (`vuser`).
-
-### Installation from Archiso
-
-You can get `vbase` with the following commands.
-
-WIP
-
-```shell
-curl -Os https://example.com/vbase
-chmod +x vbase
-./vbase
-```
-
-Next: [Installation from Betteriso](#installation-from-betteriso)
 
 ## License
 

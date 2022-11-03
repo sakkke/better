@@ -1,6 +1,9 @@
-.PHONY: all vbase vmiddle vuser
+.PHONY: all better vbase vmiddle vuser
 
-all: vbase vmiddle vuser
+all: better vbase vmiddle vuser
+
+better:
+	v -freestanding -o better cmd/better
 
 vbase:
 	v -freestanding -o vbase cmd/vbase
