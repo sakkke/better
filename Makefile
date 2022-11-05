@@ -1,9 +1,12 @@
-.PHONY: all better vbase vmiddle vuser
+.PHONY: all better clean vbase vmiddle vuser
 
 all: better vbase vmiddle vuser
 
 better:
 	v -o better cmd/better
+
+clean:
+	$(RM) better vbase vmiddle vuser
 
 vbase:
 	v -o vbase cmd/vbase
